@@ -1,0 +1,23 @@
+.inputWrapper {
+  display: flex;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+}
+
+.input {
+  flex-grow: 1;
+
+  padding: 10px;
+
+  background: transparent;
+  border: none;
+  outline: none;
+
+  &:focus {
+    outline: 3px dotted var(--outline-color);
+  }
+}
+
+.label {
+  font-weight: var(--font-weight-lg);
+}

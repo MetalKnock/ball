@@ -31,6 +31,7 @@ body {
   padding: 0 to-rem(15px);
 }
 
+/* stylelint-disable-next-line selector-id-pattern */
 #__next {
   display: flex;
   flex: 1 1 100%;
