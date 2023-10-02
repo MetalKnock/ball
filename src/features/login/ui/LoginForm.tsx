@@ -29,7 +29,7 @@ export default function LoginForm({ className = '' }: LoginFormProps) {
 
   return (
     <form className={`${styles.loginForm} ${className}`} onSubmit={handleSubmit(onSubmit)}>
-      <h1>Sign in</h1>
+      <h1 className={styles.title}>Sign in</h1>
       <div className={styles.inputWrapper}>
         <Input
           autoFocus
