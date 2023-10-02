@@ -29,6 +29,7 @@
     "@types/react-dom": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "prettier": "^3.0.3",
     "stylelint": "^15.10.3",
     "stylelint-config-clean-order": "^5.2.0",
     "stylelint-config-standard-scss": "^11.0.0",
