@@ -1,0 +1,24 @@
+{
+  "extends": ["next/core-web-vitals", "airbnb-base"],
+  "rules": {
+    "object-curly-newline": [
+      "error",
+      {
+        "ImportDeclaration": "never"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "linebreak-style": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "": "never",
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  }
+}
