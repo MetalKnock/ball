@@ -1,6 +1,6 @@
 # Ball app
 
-> Live demo [_here_](https://metalknock-ball.netlify.app/).
+> Live demo [_here_](https://metalknock-ball.vercel.app/).
 
 ## Installing / Getting started
 
