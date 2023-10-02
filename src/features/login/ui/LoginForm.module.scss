@@ -1,0 +1,29 @@
+.loginForm {
+  margin: auto;
+  padding: 1.25rem;
+
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  box-shadow: 1px 2px 8px 0 var(--shadow-color);
+}
+
+.inputWrapper {
+  position: relative;
+  padding-bottom: 1.7rem;
+}
+
+.error {
+  position: absolute;
+  margin: 0.5rem 0 0;
+  color: var(--error-color);
+}
+
+.button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.loader {
+  width: 4rem;
+  height: 1.15rem;
+}
