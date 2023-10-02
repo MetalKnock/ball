@@ -6,6 +6,19 @@
       {
         "ImportDeclaration": "never"
       }
+    ],
+    "import/prefer-default-export": "off",
+    "linebreak-style": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "": "never",
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
     ]
   }
 }
